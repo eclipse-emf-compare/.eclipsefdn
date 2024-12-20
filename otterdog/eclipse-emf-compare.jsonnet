@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-emf-compare') {
+orgs.newOrg('modeling.emfcompare', 'eclipse-emf-compare') {
   settings+: {
     description: "",
     name: "Eclipse EMF Compare",
