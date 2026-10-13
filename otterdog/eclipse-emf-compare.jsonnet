@@ -28,7 +28,7 @@ orgs.newOrg('modeling.emfcompare', 'eclipse-emf-compare') {
       has_wiki: false,
       web_commit_signoff_required: false,
       workflows+: {
-        enabled: false,
+        enabled: true,
       },
     },
     orgs.newRepo('emf-compare-acceptance') {
